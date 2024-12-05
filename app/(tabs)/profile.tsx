@@ -1,10 +1,15 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { Button } from 'react-native';
+import { app } from '../../utils/firebaseConfig'
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { collection, getDocs } from "firebase/firestore"
 
-export default function profile() {
+
+export default function Profile() {
+
+
     return (
-        <View>
-            <Text>profile</Text>
-        </View>
+        <>
+
+        </>
     )
 }
